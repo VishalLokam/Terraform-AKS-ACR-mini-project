@@ -88,4 +88,4 @@ Terraform mini project to create Azure Container Registry(ACR) to store docker i
     docker image push <acr_login_server>/<image_name>:<tag>
     ```
 
-To create deployment in AKS using images from ACR you can run the typical kubernetes deployment commands
+To create a deployment in AKS using images from ACR you can run the typical kubernetes deployment commands
