@@ -36,12 +36,12 @@ Terraform mini project to create Azure Container Registry(ACR) to store docker i
 
 4. In the terraform folder create a new file `terraform.tfvars` and paste the below code to initialise the variable values:
     ```
-    resource_group_name = "tws_deployment_RG"
+    resource_group_name = "tf_aks_acr_rg"
     location            = "centralindia"
     cluster_name        = "my-aks-cluster"
     kubernetes_version  = "1.26.10"
     system_node_count   = 3
-    acr_name            = "twsChallengeACRVishal"
+    acr_name            = "acrdevenv"
     appId               = "<appId_from_step_2>"
     principalid         = "<principalId_from_step_3>"
     password            = "<password_from_step_2>"
